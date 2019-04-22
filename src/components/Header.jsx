@@ -6,21 +6,22 @@ import { Switch, Route, Link } from 'react-router-dom';
 function Header(){
   const header = {
   display: 'flex',
+  backgroundImage: 'linear-gradient(rgba(44,62,80,1), rgba(44,62,80,0))',
   flexDirection: 'row',
   justifyContent: 'center',
   justifyContent: 'space-between',
-  position: 'absolute',
+  position: 'relative',
   zIndex: '2',
-  backgroundColor: 'black',
   padding: '20px 20px 20px 20px',
   top: '0px',
   left: '0px',
   width: '97vw',
-  opacity: '.6'
+  opacity: '.8',
+
   }
   const links = {
   opacity: '1',
-  color: 'white',
+  color: 'black',
   textDecoration: 'none',
   paddingRight: '10px',
   fontWeight: 'bold',
@@ -28,9 +29,9 @@ function Header(){
 
   return(
     <div style={header}>
-      <Link style={links} to="/">Home</Link>
+      <Link style={links} to="/">BREAKSIDE</Link>
       <div>
-        <Link style={links} to="/Equis">Equis</Link>
+        <Link style={links} to="/Equis">(hamburger)</Link>
       </div>
     </div>
   );

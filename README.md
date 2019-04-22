@@ -8,7 +8,11 @@
 
 ![](src/assets/imgs/chart.jpg)
 
-__
+This is the structure I will use to continue to develop my site. This chart displays component structure for the main homepage.
+
+## Roadmap
+
+This site is still very static. My next goals are to replace location and events screenshots with functioning buttons and links to display more content.
 
 ## Setup/Installation Requirements
 

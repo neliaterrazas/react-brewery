@@ -5,7 +5,7 @@ import gold from '../assets/imgs/true-gold.png';
 import moose from '../assets/imgs/antlers.png';
 import wolf from '../assets/imgs/wolf.jpg';
 import breakside from '../assets/imgs/breakside-name.png';
-import Beers from './Beers';
+import BeerImgComponent from './BeerImgComponent';
 import About from './About';
 
 
@@ -76,7 +76,7 @@ function Home(){
           </div>
         </div> {/*wolf and description end*/}
 
-        <Beers/>
+        <BeerImgComponent/>
         <About/>
     {/*initial div*/}</div>
 

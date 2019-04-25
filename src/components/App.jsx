@@ -6,8 +6,8 @@ import { Switch, Route, Link } from 'react-router-dom';
 import Error from './Error';
 import Footer from './Footer';
 import Moment from 'moment';
-import Admin from './Admin';
-import TapList from './TapList';
+import Admin from '../components/admin/Admin';
+import TapList from '../components/admin/TapList';
 
 
 class App extends React.Component{

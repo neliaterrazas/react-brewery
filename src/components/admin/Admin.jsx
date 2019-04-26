@@ -8,9 +8,10 @@ class Admin extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      exampleDay: ' ',
-      exampleLocation: ' ',
-      exampleHours: ' '
+      sampleName: ' ',
+      sampleAbv: ' ',
+      sampleIbu: ' ',
+      sampleCompany: ' '
 
     };
 
@@ -41,7 +42,7 @@ class Admin extends React.Component {
 }
 
 Admin.propTypes = {
-  onNewLocationCreation: PropTypes.func
+  onNewBeerFormSubmission: PropTypes.func
 };
 
 

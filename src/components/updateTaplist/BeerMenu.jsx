@@ -4,7 +4,15 @@ import BeerBox from './BeerBox';
 
 function BeerMenu(props){
   return(
-    <div>
+    <div className="grid-container">
+    <style jsx>{`
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: ". . . ." ". . . ." ". . . .";
+}
+      `}</style>
       {props.fixedBeer.map((beer, index) =>
         <BeerBox name={beer.name}
         abv={beer.abv}

@@ -8,6 +8,7 @@ import Moment from 'moment';
 import BeerControl from '../components/updateTaplist/BeerControl';
 import BeerMenu from '../components/updateTaplist/BeerMenu';
 import BeerForm from '../components/updateTaplist/BeerForm';
+import AreYouSure from '../components/updateTaplist/AreYouSure';
 import fixedBeer from './model/FixedBeerList';
 
 class App extends React.Component{
@@ -33,6 +34,7 @@ class App extends React.Component{
         <Header/>
         <Switch>
           <Route exact path ='/' render={() =><BeerMenu fixedBeer={this.state.fixedBeer} />} />
+          <Route exact path = '/beercontrol'render={() =><BeerControl  onNewBeerFormSubmission={this.handleAddingNewBeer}/>} />
           <Route component={Error} />
         </Switch>
         <Footer/>

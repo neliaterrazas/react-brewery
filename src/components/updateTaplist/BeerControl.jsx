@@ -1,6 +1,7 @@
 import React from 'react';
 import BeerForm from './BeerForm';
 import PropTypes from 'prop-types';
+import AreYouSure from './AreYouSure';
 
 class BeerControl extends React.Component {
 

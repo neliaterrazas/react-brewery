@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 function BeerBox(props){
   return(
     <div>
-      <h3>{props.}</h3>
-      <h3></h3>
-      <h3></h3>
-      <h3></h3>
+      <h3>{props.name}</h3>
+      <h3>{props.abv}</h3>
+      <h3>{props.ibu}</h3>
+      <h3>{props.company}</h3>
     </div>
   );
 }

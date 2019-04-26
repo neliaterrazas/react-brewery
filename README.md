@@ -1,6 +1,6 @@
-# _Breakside Brewery Site Clone Using React_
+# _Brewery Site Using React_
 
-#### _Dividing, Re-creating, and Re-building Breakside Brewery's Site (into components) using React, 04/19/19_
+#### _Dividing, Re-creating, and Re-building Breakside Brewery's Site as a model using React, 04/26/19_
 
 #### By _**Nelia Terrazas**_
 
@@ -12,7 +12,7 @@ This is the structure I will use to continue to develop my site. This chart disp
 
 ## Roadmap
 
-This site is still very static. My next goals are to replace location and events screenshots with functioning buttons and links to display more content.
+This site is still very static. My next goals are to replace location and events screenshots with functioning buttons and links to display more content. I am working on adding an admin path to update the current tap list. 
 
 ## Setup/Installation Requirements
 

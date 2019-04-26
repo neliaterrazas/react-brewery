@@ -1,13 +1,13 @@
 import React from 'react';
 import BeerForm from './BeerForm';
 import PropTypes from 'prop-types';
-import TapList from './TapList';
+import CurrentTapList from './CurrentTapList';
 
 class Admin extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = { 
+    this.state = {
       exampleDay: ' ',
       exampleLocation: ' ',
       exampleHours: ' '

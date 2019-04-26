@@ -21,6 +21,9 @@ function Home(){
         justify-content: space-around;
         height: 90vh;
       }
+      .first-row img {
+        width: 100%;
+      }
        .up-top {
          width: 33%;
          z-index: 1;

@@ -1,13 +1,13 @@
 import React from 'react';
 import BeerForm from './BeerForm';
 import PropTypes from 'prop-types';
-import CurrentTapList from './CurrentTapList';
 
 class BeerControl extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
+      formVisibleOnPage: false,
       sampleName: ' ',
       sampleAbv: ' ',
       sampleIbu: ' ',
@@ -26,12 +26,10 @@ class BeerControl extends React.Component {
 
   render(){
     let currentlyVisibleContent = null;
-    console.log(this.props.onNewLocationCreation)
-    console.log(this.props.test)
     if (this.state.formVisibleOnPage){
-      currentlyVisibleContent = <NewLocationForm onNewLocationCreation={this.props.onNewLocationCreation} />;
+      currentlyVisibleContent = <BeerForm onNewBeerFormSubmission={this.props.onNewBeerFormSubmission} />;
     } else {
-      currentlyVisibleContent = <ConfirmationQuestions onFormSubmission={this.handleFormSubmission}/>;
+      currentlyVisibleContent = <AreYouSure onFormSubmission={this.handleFormSubmission}/>;
     }
     return(
       <div>

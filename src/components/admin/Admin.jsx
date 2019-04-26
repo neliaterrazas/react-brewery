@@ -1,19 +1,19 @@
 import React from 'react';
-import ConfirmationQuestions from './ConfirmationQuestions';
-import NewLocationForm from './NewLocationForm';
+import BeerForm from './BeerForm';
 import PropTypes from 'prop-types';
+import TapList from './TapList';
 
-class NewLocationControl extends React.Component {
+class Admin extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {
-      formVisibleOnPage: false,
+    this.state = { 
       exampleDay: ' ',
       exampleLocation: ' ',
       exampleHours: ' '
 
     };
+
    this.handleFormSubmission = this.handleFormSubmission.bind(this);
 
 
@@ -40,10 +40,10 @@ class NewLocationControl extends React.Component {
   }
 }
 
-NewLocationControl.propTypes = {
+Admin.propTypes = {
   onNewLocationCreation: PropTypes.func
 };
 
 
 
-export default NewLocationControl;
+export default Admin;

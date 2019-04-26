@@ -1,13 +1,13 @@
 import React from "react";
 import Header from './Header';
 import Home from './Home';
-import Equis from './Equis';
 import { Switch, Route, Link } from 'react-router-dom';
 import Error from './Error';
 import Footer from './Footer';
 import Moment from 'moment';
 import Admin from '../components/admin/Admin';
 import TapList from '../components/admin/TapList';
+import BeerForm from '../components/admin/BeerForm';
 
 
 class App extends React.Component{
@@ -25,7 +25,6 @@ class App extends React.Component{
         <Header/>
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path ='/equis' component={Equis} />
           <Route component={Error} />
         </Switch>
         <Footer/>

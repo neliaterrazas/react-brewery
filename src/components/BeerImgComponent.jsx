@@ -22,6 +22,9 @@ function BeerImgComponent(){
           margin-left: 25%;
           margin-right: 25%;
         }
+        .parent img {
+          width: 100%;
+        }
         `}</style>
       <h1>OUR BEERS</h1>
       <div className="parent">

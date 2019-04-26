@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function BeerDisplay(props){
+function BeerBox(props){
   return(
     <div>
       <h3></h3>
@@ -19,4 +19,4 @@ BeerDisplay.propTypes = {
   company: PropTypes.string.isRequired,
 };
 
-export default BeerDisplay;
+export default BeerBox;

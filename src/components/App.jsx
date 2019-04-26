@@ -6,7 +6,7 @@ import Error from './Error';
 import Footer from './Footer';
 import Moment from 'moment';
 import Admin from '../components/admin/Admin';
-import TapList from '../components/admin/TapList';
+import CurrentTapList from '../components/admin/CurrentTapList';
 import BeerForm from '../components/admin/BeerForm';
 
 

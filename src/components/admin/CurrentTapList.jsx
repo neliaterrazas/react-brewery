@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TapList(){
+function CurrentTapList(){
 
   return(
     <div>
@@ -10,4 +10,4 @@ function TapList(){
   );
 }
 
-export default TapList;
+export default CurrentTapList;

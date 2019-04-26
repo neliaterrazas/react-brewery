@@ -3,7 +3,7 @@ import BeerForm from './BeerForm';
 import PropTypes from 'prop-types';
 import CurrentTapList from './CurrentTapList';
 
-class Admin extends React.Component {
+class BeerControl extends React.Component {
 
   constructor(props) {
     super(props);
@@ -41,10 +41,10 @@ class Admin extends React.Component {
   }
 }
 
-Admin.propTypes = {
+BeerControl.propTypes = {
   onNewBeerFormSubmission: PropTypes.func
 };
 
 
 
-export default Admin;
+export default BeerControl;

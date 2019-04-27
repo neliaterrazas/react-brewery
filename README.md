@@ -12,7 +12,7 @@ This is the structure I will use to continue to develop my site. This chart disp
 
 ## Roadmap
 
-This site is still very static. My next goals are to replace location and events screenshots with functioning buttons and links to display more content. I am working on adding an admin path to update the current tap list. 
+This site is still under construction. I have implemented a model if one would like to update a beer list and have it display on the home page. Now that I have correctly implemented a stateful component, my next focus is on styling.
 
 ## Setup/Installation Requirements
 
@@ -23,7 +23,7 @@ This site is still very static. My next goals are to replace location and events
 
 ## Known Bugs
 
-Width: 100% is not working as expected.
+Beer updates to list until you refresh (then it resets).
 
 ## Support and contact details
 

@@ -25,6 +25,7 @@ function BeerMenu(props){
 }
 
 BeerMenu.propTypes = {
+  
   FixedBeer: PropTypes.array
 };
 

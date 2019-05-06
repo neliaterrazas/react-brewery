@@ -8,18 +8,11 @@ class BeerControl extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      formVisibleOnPage: false,
-      sampleName: ' ',
-      sampleAbv: ' ',
-      sampleIbu: ' ',
-      sampleCompany: ' '
-
+      formVisibleOnPage: false
     };
 
-   this.handleFormSubmission = this.handleFormSubmission.bind(this);
-
-
-  }
+    this.handleFormSubmission = this.handleFormSubmission.bind(this);
+ }
 
   handleFormSubmission(){
     this.setState({formVisibleOnPage: true});

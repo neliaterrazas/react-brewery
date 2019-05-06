@@ -16,10 +16,11 @@ class App extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
-      fixedBeer: fixedBeer,
+      fixedBeer: [ ],
+      selectedBeer: null
     };
     this.handleAddingNewBeer = this.handleAddingNewBeer.bind(this);
-
+    this.handleChangingSelectedBeer = this.handleChangingSelectedBeer.bind(this);
   }
 
   handleAddingNewBeer(newBeer){
@@ -27,6 +28,10 @@ class App extends React.Component{
     updatedBeer.push(newBeer);
     this.setState({fixedBeer: updatedBeer});
   }
+  handleChangingSelectedBeer(beer){
+    this.setState({selectedBeer:beer});
+  }
+
 
   render(){
     return (

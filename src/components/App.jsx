@@ -9,14 +9,14 @@ import BeerControl from '../components/updateTaplist/BeerControl';
 import BeerMenu from '../components/updateTaplist/BeerMenu';
 import BeerForm from '../components/updateTaplist/BeerForm';
 import AreYouSure from '../components/updateTaplist/AreYouSure';
-import fixedBeer from './model/FixedBeerList';
+import UpdateBeer from '../components/updateTaplist/UpdateBeer';
+
 
 class App extends React.Component{
 
   constructor(props) {
     super(props);
     this.state = {
-      fixedBeer: [ ],
       selectedBeer: null
     };
     this.handleAddingNewBeer = this.handleAddingNewBeer.bind(this);
@@ -40,6 +40,7 @@ class App extends React.Component{
         <Switch>
           <Route exact path ='/' render={() =><BeerMenu fixedBeer={this.state.fixedBeer} />} />
           <Route exact path = '/beercontrol'render={() =><BeerControl  onNewBeerFormSubmission={this.handleAddingNewBeer}/>} />
+          <Route exact path ='/admin' component={UpdateBeer} />
           <Route component={Error} />
         </Switch>
         <Footer/>

@@ -6,7 +6,7 @@ import Error from './Error';
 import Footer from './Footer';
 import Moment from 'moment';
 import BeerControl from '../components/updateTaplist/BeerControl';
-import BeerMenu from '../components/updateTaplist/BeerMenu';
+
 import BeerForm from '../components/updateTaplist/BeerForm';
 import AreYouSure from '../components/updateTaplist/AreYouSure';
 import UpdateBeer from '../components/updateTaplist/UpdateBeer';
